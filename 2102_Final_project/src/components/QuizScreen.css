@@ -1,0 +1,54 @@
+/* QuizScreen.css */
+
+.quiz-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 3px solid #ffbb7b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    background: #ffe8b5;
+  }
+  
+  .options-list {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .option-item {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #ffd392;
+    border-radius: 5px;
+  }
+  
+  .option-item:hover {
+    background-color: #d4ecd3;
+  }
+  
+  .option-item.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .next-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+  
